@@ -1,1 +1,1 @@
-n
+int(head);

@@ -9,14 +9,17 @@ int update2(int& n){
     n++;
 }
 
-int getSum(int *arr,int n){
+//default arguement start = 0 
+
+int getSum(int *arr,int n , int start = 0){
     int sum = 0;
-    for(int i =0 ; i<n;i++ ){
+    for(int i = start ; i<n;i++ ){
         sum+=arr[i];
     }
     return sum; 
 }
 
+// inline function
 inline int getMax(int& a , int& b ){
     return (a>b) ? a : b;
 }
@@ -126,7 +129,7 @@ for(int i= 0 ; i<row;i++){
     cout<<endl;
 }
 
-*/
+
 
 //macros
 
@@ -134,12 +137,15 @@ for(int i= 0 ; i<row;i++){
 
 //global variable
 
-// inline function
+
 
 int a = 1 , b = 2;
 int ans = 0 ;
 ans = getMax(a,b);
-cout<<ans<<endl; 
+cout<<ans<<endl;
+*/
+
+
 
 
 
