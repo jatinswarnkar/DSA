@@ -64,6 +64,3 @@ class CircularQueue{
     }
 };
 
-int main(){
-    return 0;
-}
